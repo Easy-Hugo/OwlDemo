@@ -1,0 +1,136 @@
+baseURL = "https://OwlHugo.com/"
+buildDrafts = false
+buildExpired = true
+buildFuture = true
+enableEmoji = true
+enableInlineShortcodes = true
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+disableHugoGeneratorInject = true
+summaryLength = 70
+hasCJKLanguage = true
+theme = ["PaperMod"]
+title = "OwlHugo"
+mainsections = ["posts"]             # 主要内容目录
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+displayFullLangName = true
+defaultTheme = "auto"
+keywords = ["OwlHugo", "Debug", "IDA", "LLDB", "Reading Journal", "投资日记"]
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowReadingTime = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = true
+ShowShareButtons = true
+UseHugoToc = true
+hideFooter = false
+ShowFullTextinRSS = true
+author = "OwlHugo"
+comments = false
+description = " I explore the intricacies of software debugging, share insights on personal finance, and delve into the world of stock investing. I also enjoy documenting my reading notes and investment diaries, offering reflections and strategies that have shaped my understanding of these topics. Join me on this journey as we navigate the complexities of technology and finance together!"
+disableScrollToTop = false
+disableSpecial1stPost = false
+disableThemeToggle = false
+env = "production"
+hideSummary = false
+hidemeta = false
+images = ["/images/avatar.png"]
+showtoc = true                                                                                                                                                                                                                                                                                                                                                                                          # 显示目录
+tocopen = true                                                                                                                                                                                                                                                                                                                                                                                          # 自动展开目录
+social = true
+
+[params.homeInfoParams]
+Content = ""
+Title = "### Everything you want is on the other side of fear."
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:OwlHugo@outlook.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/OwlHugo"
+
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[params.assets]
+apple_touch_icon = "/images/apple-touch-icon.png"
+avatarURL = "/images/avatar.png"
+favicon = "/images/favicon.ico"
+favicon16x16 = "/images/favicon-16x16.png"
+favicon32x32 = "/images/favicon-32x32.png"
+faviconpng = "/images/favicon.png"
+safari_pinned_tab = "https://OwlHugo.com"
+
+[params.cover]
+hidden = false
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+Text = "Suggest Changes"
+URL = "https://github.com/OwlHugo/content"
+appendFilePath = true
+disabled = true
+
+[params.fuseOpts]
+distance = 1_000
+isCaseSensitive = false
+keys = ["title", "permalink", "summary", "content"]
+limit = 10
+location = 0
+minMatchCharLength = 0
+shouldSort = true
+threshold = 0.4
+
+[params.label]
+icon = "/images/apple-touch-icon.png"
+iconHeight = 35
+text = ""
+
+[params.profileMode]
+enabled = true
+imageHeight = 120
+imageWidth = 120
+imageUrl = "/images/avatar.png"
+imageTitle = "OwlHugo"
+title = """#### Everything you want is on the other side of fear"""
+subtitle = "The stock market crashes are inevitable, just as winter snowstorms are bound to come. When the stock market crashed during the COVID-19 pandemic, the internet was filled with pessimistic predictions claiming that this would be an eternal winter. "
+
+[params.analytics.bing]
+SiteVerificationTag = "452C24BC8E4B77F84D7DECCB8D52E6D4"
+
+[params.analytics.google]
+SiteVerificationTag = "3znWIRCQLH2QvpG-N9V0L0MB3oWUvjwCy4pOtRBhnrQ"
+
+[params.analytics.yandex]
+SiteVerificationTag = "75149014e640c868"
+
+[taxonomies]
+tag = "tags"
+series = "series"
+# category = 'categories'
+
+

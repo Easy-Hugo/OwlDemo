@@ -1,0 +1,17 @@
+[zh]
+disabled = true
+contentDir = 'content/zh'
+languageCode = 'zh-cn'
+languageDirection = 'ltr'
+LanguageName = '中文'
+title = "OwlHugo的博客"
+weight = 10
+
+[en]
+contentDir = 'content/en'
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+LanguageName = 'English'
+title = "OwlHugo's Blog"
+weight = 20
